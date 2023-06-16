@@ -4,7 +4,6 @@ C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
-C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
@@ -17,5 +16,6 @@ C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Costos.resources
-C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Ingredientes.resources
 C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Recetario.resources
+C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Produccion.resources
+C:\Users\mbrav\OneDrive\Escritorio\Programacion\Vbasic\DolceCrecendo\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Inicio.resources

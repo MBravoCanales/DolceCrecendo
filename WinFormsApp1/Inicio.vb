@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Inicio
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureReceta.Click
         Me.Hide()
         Recetario.Show()
@@ -7,14 +7,14 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnSalirInicio.Click
         Me.Close()
 
     End Sub
 
-    Private Sub PictureIngredientes_Click(sender As Object, e As EventArgs) Handles PictureIngredientes.Click
+    Private Sub PictureIngredientes_Click(sender As Object, e As EventArgs) Handles PictureProduccion.Click
         Me.Hide()
-        Ingredientes.Show()
+        Produccion.Show()
 
 
     End Sub

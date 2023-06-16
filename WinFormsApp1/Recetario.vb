@@ -1,7 +1,7 @@
 ﻿Public Class Recetario
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click
         Me.Close()
-        Form1.Show()
+        Inicio.Show()
 
     End Sub
 
