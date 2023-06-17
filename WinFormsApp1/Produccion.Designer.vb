@@ -28,15 +28,15 @@ Partial Class Produccion
         TextBox1 = New TextBox()
         Label5 = New Label()
         GroupBox1 = New GroupBox()
-        Label6 = New Label()
-        Label7 = New Label()
-        Label8 = New Label()
-        Label9 = New Label()
-        TextBox4 = New TextBox()
-        TextBox5 = New TextBox()
-        TextBox6 = New TextBox()
-        Label10 = New Label()
         TextBox7 = New TextBox()
+        Label10 = New Label()
+        TextBox6 = New TextBox()
+        TextBox5 = New TextBox()
+        TextBox4 = New TextBox()
+        Label9 = New Label()
+        Label8 = New Label()
+        Label7 = New Label()
+        Label6 = New Label()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -61,20 +61,20 @@ Partial Class Produccion
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(460, 79)
+        Button2.Location = New Point(487, 79)
         Button2.Name = "Button2"
         Button2.Size = New Size(23, 23)
         Button2.TabIndex = 2
-        Button2.Text = "Agregar"
+        Button2.Text = "+"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(487, 79)
+        Button3.Location = New Point(6, 79)
         Button3.Name = "Button3"
         Button3.Size = New Size(23, 23)
         Button3.TabIndex = 3
-        Button3.Text = "Eliminar"
+        Button3.Text = "-"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' TextBox1
@@ -96,6 +96,7 @@ Partial Class Produccion
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         GroupBox1.Controls.Add(TextBox7)
         GroupBox1.Controls.Add(Label10)
         GroupBox1.Controls.Add(TextBox6)
@@ -112,67 +113,14 @@ Partial Class Produccion
         GroupBox1.Size = New Size(366, 331)
         GroupBox1.TabIndex = 10
         GroupBox1.TabStop = False
-        GroupBox1.Text = "GroupBox1"
         ' 
-        ' Label6
+        ' TextBox7
         ' 
-        Label6.AutoSize = True
-        Label6.Location = New Point(159, 19)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(43, 15)
-        Label6.TabIndex = 0
-        Label6.Text = "Detalle"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Location = New Point(36, 83)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(179, 15)
-        Label7.TabIndex = 10
-        Label7.Text = "Cantidad de unidades fabricadas"
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Location = New Point(36, 112)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(98, 15)
-        Label8.TabIndex = 11
-        Label8.Text = "Coste por unidad"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Location = New Point(36, 141)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(120, 15)
-        Label9.TabIndex = 12
-        Label9.Text = "Venta de cada unidad"
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Enabled = False
-        TextBox4.Location = New Point(239, 80)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(100, 23)
-        TextBox4.TabIndex = 13
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Enabled = False
-        TextBox5.Location = New Point(239, 109)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(100, 23)
-        TextBox5.TabIndex = 14
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.Enabled = False
-        TextBox6.Location = New Point(239, 138)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(100, 23)
-        TextBox6.TabIndex = 15
+        TextBox7.Enabled = False
+        TextBox7.Location = New Point(239, 168)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(100, 23)
+        TextBox7.TabIndex = 17
         ' 
         ' Label10
         ' 
@@ -183,18 +131,68 @@ Partial Class Produccion
         Label10.TabIndex = 16
         Label10.Text = "Ganancia por unidad"
         ' 
-        ' TextBox7
+        ' TextBox6
         ' 
-        TextBox7.Enabled = False
-        TextBox7.Location = New Point(239, 168)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(100, 23)
-        TextBox7.TabIndex = 17
+        TextBox6.Location = New Point(239, 138)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(100, 23)
+        TextBox6.TabIndex = 15
+        ' 
+        ' TextBox5
+        ' 
+        TextBox5.Enabled = False
+        TextBox5.Location = New Point(239, 109)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(100, 23)
+        TextBox5.TabIndex = 14
+        ' 
+        ' TextBox4
+        ' 
+        TextBox4.Location = New Point(239, 80)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(100, 23)
+        TextBox4.TabIndex = 13
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Location = New Point(36, 141)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(120, 15)
+        Label9.TabIndex = 12
+        Label9.Text = "Venta de cada unidad"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Location = New Point(36, 112)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(98, 15)
+        Label8.TabIndex = 11
+        Label8.Text = "Coste por unidad"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Location = New Point(36, 83)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(179, 15)
+        Label7.TabIndex = 10
+        Label7.Text = "Cantidad de unidades fabricadas"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Location = New Point(159, 19)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(43, 15)
+        Label6.TabIndex = 0
+        Label6.Text = "Detalle"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(194, 19)
+        Label1.Location = New Point(229, 19)
         Label1.Name = "Label1"
         Label1.Size = New Size(68, 15)
         Label1.TabIndex = 0
@@ -203,7 +201,7 @@ Partial Class Produccion
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(20, 54)
+        Label2.Location = New Point(40, 54)
         Label2.Name = "Label2"
         Label2.Size = New Size(47, 15)
         Label2.TabIndex = 2
@@ -212,7 +210,7 @@ Partial Class Produccion
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(147, 54)
+        Label3.Location = New Point(167, 54)
         Label3.Name = "Label3"
         Label3.Size = New Size(185, 15)
         Label3.TabIndex = 3
@@ -221,7 +219,7 @@ Partial Class Produccion
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(354, 54)
+        Label4.Location = New Point(374, 54)
         Label4.Name = "Label4"
         Label4.Size = New Size(37, 15)
         Label4.TabIndex = 4
@@ -229,7 +227,7 @@ Partial Class Produccion
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(148, 80)
+        TextBox2.Location = New Point(168, 80)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(184, 23)
         TextBox2.TabIndex = 5
@@ -237,7 +235,7 @@ Partial Class Produccion
         ' TextBox3
         ' 
         TextBox3.Enabled = False
-        TextBox3.Location = New Point(354, 80)
+        TextBox3.Location = New Point(374, 80)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(100, 23)
         TextBox3.TabIndex = 6
@@ -247,13 +245,14 @@ Partial Class Produccion
         ComboBox1.AllowDrop = True
         ComboBox1.FormattingEnabled = True
         ComboBox1.Items.AddRange(New Object() {"Harina", "Azucar"})
-        ComboBox1.Location = New Point(20, 80)
+        ComboBox1.Location = New Point(40, 80)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(118, 23)
         ComboBox1.TabIndex = 7
         ' 
         ' GroupBox2
         ' 
+        GroupBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         GroupBox2.Controls.Add(TextBox3)
         GroupBox2.Controls.Add(ComboBox1)
         GroupBox2.Controls.Add(Button3)
@@ -268,7 +267,6 @@ Partial Class Produccion
         GroupBox2.Size = New Size(516, 331)
         GroupBox2.TabIndex = 11
         GroupBox2.TabStop = False
-        GroupBox2.Text = "GroupBox2"
         ' 
         ' Button4
         ' 
@@ -279,7 +277,7 @@ Partial Class Produccion
         Button4.Text = "Limpiar"
         Button4.UseVisualStyleBackColor = True
         ' 
-        ' Costos
+        ' Produccion
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -288,7 +286,8 @@ Partial Class Produccion
         Controls.Add(GroupBox2)
         Controls.Add(GroupBox1)
         Controls.Add(Button1)
-        Name = "Costos"
+        FormBorderStyle = FormBorderStyle.None
+        Name = "Produccion"
         Text = "Produccion"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()

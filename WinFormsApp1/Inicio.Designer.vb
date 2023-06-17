@@ -35,6 +35,7 @@ Partial Class Inicio
         ' 
         ' PictureReceta
         ' 
+        PictureReceta.Anchor = AnchorStyles.None
         PictureReceta.Image = CType(resources.GetObject("PictureReceta.Image"), Image)
         PictureReceta.Location = New Point(32, 198)
         PictureReceta.Name = "PictureReceta"
@@ -64,6 +65,7 @@ Partial Class Inicio
         ' 
         ' PictureProduccion
         ' 
+        PictureProduccion.Anchor = AnchorStyles.None
         PictureProduccion.Image = CType(resources.GetObject("PictureProduccion.Image"), Image)
         PictureProduccion.Location = New Point(309, 198)
         PictureProduccion.Name = "PictureProduccion"
@@ -74,6 +76,7 @@ Partial Class Inicio
         ' 
         ' PictureCostos
         ' 
+        PictureCostos.Anchor = AnchorStyles.None
         PictureCostos.Image = CType(resources.GetObject("PictureCostos.Image"), Image)
         PictureCostos.Location = New Point(583, 198)
         PictureCostos.Name = "PictureCostos"
@@ -93,7 +96,6 @@ Partial Class Inicio
         Controls.Add(LabelTituloInicio)
         Controls.Add(BtnSalirInicio)
         Controls.Add(PictureReceta)
-        FormBorderStyle = FormBorderStyle.None
         Name = "Inicio"
         Text = "Form1"
         CType(PictureReceta, ComponentModel.ISupportInitialize).EndInit()
